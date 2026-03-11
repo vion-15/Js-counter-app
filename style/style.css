@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.wadah {
+    padding: 5%;
+    width: 25%;
+    text-align: center;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    background-color: dodgerblue;
+}
+
+.wadah h3 {
+    color: white;
+}
+
+.wadah button {
+    padding: 5% 7%;
+    margin-right: 5%;
+}
